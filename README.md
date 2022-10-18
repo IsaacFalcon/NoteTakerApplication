@@ -2,15 +2,16 @@
 
 ## Description
 
--A Generator created in node with JavaScript to help easily create a README file for any project.
+- A Note Taker App to help you easily jot down quick notes and save them fo later.
 
 ## Description
-- A command-line application that accepts user input
-- I am prompted for information about my application repository and when entered a high-quality, professional README.md is generated.
-- If you enter project title it is displayed as the title of the README
-- If you enter a description, installation instructions, usage information, contribution guidelines, and test instructions it is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- If you choose a license for the application from a list of options a badge for that license is added for README and type of license is added to the section.
-- You can also input email and github and it will link to the corresponding input.
+
+- Opening the Note Taker page you are presented with a landing page with a link to a notes page
+- If you click on the link to the notes page you are taken to a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column.
+- When you enter a new note title and the note’s text then a Save icon appears in the navigation at the top of the page
+- When you click on the Save icon then the new note I have entered is saved and appears in the left-hand column with the other existing notes.
+- If you click on an existing note in the list in the left-hand column that note appears in the right-hand column.
+- When you click on the Write icon in the navigation at the top of the page then you are presented with empty fields to enter a new note title and the note’s text in the right-hand column.
 
 
 ## Table of Contents
@@ -21,22 +22,16 @@
 
 ## Usage
 
-Instructions:
-- download through this github.
-- inquirer must be installed if not already.
-- Open up terminal.
-- Make sure you are in folder with index.js.
-- type node index.js
-- answer prompted questions.
-- On success a README will be generated in the utils folder.
-
 Heroku URL: https://calm-shelf-89606.herokuapp.com/
 
-![alt Website Screenshot](.)
+![alt Website Screenshot](./public/assets/images/Preview1.JPG)
+![alt Website Screenshot](./public/assets/images/Preview2.JPG)
 
 ## Credits
 
-Node.js
+Heroku
+geeksforgeeks.org
+mdn web docs
 
 
 ## License
