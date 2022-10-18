@@ -17,6 +17,6 @@ router.post('/notes', (req, res) => {
     setNotes.push(noteModel);
     fs.writeFileSync('./db/db.json', JSON.stringify(setNotes))
     res.json(setNotes)
-})
+});
 
 module.exports = router;
